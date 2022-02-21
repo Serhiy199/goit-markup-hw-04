@@ -242,6 +242,16 @@ header {
 .list-text:not(:last-child) {
   margin-right: 30px;
 }
+
+.aside-container {
+  margin-bottom: 30px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+}
 .aside-title {
   padding-bottom: 10px;
   color: var(--title-text-color);
@@ -280,8 +290,7 @@ header {
 }
 
 .team-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px 30px 32px;
 }
 
 .commands-list {
@@ -312,6 +321,27 @@ header {
   text-align: center;
 }
 
+.list-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.social-link-team {
+  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link-team:hover,
+.social-link-team:focus {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+}
 /*footer*/
 
 .footer {
@@ -332,6 +362,12 @@ header {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.footer-conteiner {
+  display: flex;
+
+  align-items: baseline;
 }
 
 .footer-address {
@@ -362,6 +398,51 @@ header {
 .address-tel:focus,
 .address-tel:hover {
   color: var(--accent-color);
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-icon-link {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-social-link {
+  fill: #ffffff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-icon-list {
 }
 
 /*Стилі portfolio.html*/
